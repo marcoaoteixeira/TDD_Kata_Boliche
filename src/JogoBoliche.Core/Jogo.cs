@@ -6,7 +6,7 @@
 		private int[] _arremessos = new int[21]; // Todos os arremessos, e um possível 3º arremesso no 10º frame
 		private int _arremessoAtual = 0;
 
-		public void Arremesso(int pinos) {
+		public void Arremessar(int pinos) {
 			_arremessos[_arremessoAtual++] = pinos;
 		}
 
